@@ -1,0 +1,42 @@
+.info {
+    margin-top: 50px;
+    color: #222626;
+
+    @media(min-width: 960px) {
+        margin-top: 110px;
+    }
+
+    &__first {
+        h2 {
+            margin-bottom: 35px;
+            font-size: 35px;
+            text-align: center;
+
+            @media(min-width: 960px) {
+                text-align: left;
+            }
+        }
+    }
+
+    &__second {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #222626;
+
+        @media(min-width: 960px) {
+            margin-top: 70px;
+        }
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 24px;
+        color: #959595;
+        text-align: center;
+
+        @media(min-width: 960px) {
+            text-align: left;
+        }
+    }
+}
